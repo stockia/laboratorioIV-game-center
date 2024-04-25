@@ -11,6 +11,6 @@ body {
   }
 
   body.login-background {
-    background-image: url('assets/login-bg.jpg');
+    background-image: url('assets/login-background.jpg');
     background-repeat: repeat;
   }
