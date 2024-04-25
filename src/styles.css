@@ -1,0 +1,16 @@
+html, body {
+    height: 100%;
+    margin: 0;
+  }
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  }
+
+  body.login-background {
+    background-image: url('assets/login-bg.jpg');
+    background-repeat: repeat;
+  }
