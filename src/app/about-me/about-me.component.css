@@ -30,15 +30,6 @@
   height: 100vh;
 }
 
-.overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background: rgba(0, 0, 0, 0.5);
-}
-
 .hero-section .container {
   display: flex;
   flex-direction: row;
@@ -56,3 +47,30 @@
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
+
+p {
+  text-align: start;
+}
+
+.about-text-bg {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 20px;
+}
+
+.social-networks div:first-child {
+  text-align: end;
+}
+
+.social-networks div:last-child {
+  text-align: start;
+}
+
+.bi {
+  font-size: 1.8rem;
+  color: rgb(227, 227, 227);
+  /* text-align: end; */
+}
+
+/* a .bi-github {
+  text-align: start;
+} */

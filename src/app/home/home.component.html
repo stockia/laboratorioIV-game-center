@@ -1,1 +1,16 @@
-<p>home works!</p>
+<div class="home">
+  <button type="submit" class="css-button-3d--blue mt-3 ms-3" (click)="logout()">Login</button>
+  <div class="container">
+    <carousel>
+      <slide *ngFor="let card of cards; index as idx" [active]="idx === 0">
+        <div class="card mx-auto">
+          <img src="{{ card.imageUrl }}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <h4 class="card-title text-center">{{ card.title }}</h4>
+            <p class="card-text">{{ card.text }}</p>
+          </div>
+        </div>
+      </slide>
+    </carousel>
+  </div>
+</div>
